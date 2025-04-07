@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新闻资讯网页</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        
+        .container {
+            width: 1000px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #ddd;
+            margin-bottom: 30px;
+        }
+        
+        .content {
+            display: flex;
+        }
+        
+        .left-column {
+            flex: 2;
+            padding-right: 20px;
+        }
+        
+        .right-column {
+            flex: 1;
+            border-left: 1px solid #eee;
+            padding-left: 20px;
+        }
+        
+        .news-item {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed #eee;
+        }
+        
+        .news-item:last-child {
+            border-bottom: none;
+        }
+        
+        h4 {
+            color: #2c3e50;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        
+        .news-images {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .news-images img {
+            width: 48%;
+            height: auto;
+            border-radius: 5px;
+        }
+        
+        .author-info {
+            font-size: 12px;
+            color: #7f8c8d;
+        }
+        
+        .hot-news {
+            margin-bottom: 20px;
+        }
+        
+        .hot-news a {
+            display: block;
+            color: #e74c3c;
+            text-decoration: none;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .hot-news a:hover {
+            text-decoration: underline;
+        }
+        
+        .hot-news img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>今日新闻资讯</h1>
+        <hr>
+        
+        <div class="content">
+            <div class="left-column">
+                <div class="news-item">
+                    <h4>人工智能技术取得重大突破</h4>
+                    <div class="news-images">
+                        <img src="11.webp" alt="AI技术图片1">
+                        <img src="22.webp" alt="AI技术图片2">
+                    </div>
+                    <p class="author-info">作者：科技日报 | 发布时间：2023-06-15</p>
+                    <p>近日，我国科研团队在人工智能领域取得重大突破，开发出新一代深度学习算法...</p>
+                </div>
+                
+                <div class="news-item">
+                    <h4>全球气候变化峰会召开</h4>
+                    <div class="news-images">
+                        <img src="33.webp" alt="气候峰会图片1">
+                        <img src="44.webp" alt="气候峰会图片2">
+                    </div>
+                    <p class="author-info">作者：环境时报 | 发布时间：2023-06-14</p>
+                    <p>第28届全球气候变化峰会在巴黎召开，各国领导人就减排目标达成新共识...</p>
+                </div>
+                
+                <div class="news-item">
+                    <h4>新能源汽车销量创新高</h4>
+                    <div class="news-images">
+                        <img src="55.webp" alt="新能源汽车图片1">
+                        <img src="66.webp" alt="新能源汽车图片2">
+                    </div>
+                    <p class="author-info">作者：汽车周刊 | 发布时间：2023-06-13</p>
+                    <p>5月份我国新能源汽车销量同比增长120%，创历史新高，市场占有率突破30%...</p>
+                </div>
+            </div>
+            
+            <div class="right-column">
+                <h4>相关热文推荐</h4>
+                
+                <div class="hot-news">
+                    <a href="#">量子计算机研究取得新进展</a>
+                    <img src="77.webp" alt="量子计算机">
+                </div>
+                
+                <div class="hot-news">
+                    <a href="#">央行宣布下调存款准备金率0.5个百分点</a>
+                    <img src="88.webp" alt="央行大楼">
+                </div>
+                    
+                <div class="hot-news">
+                    <a href="#">夏季旅游旺季来临，国内热门景点预订量激增</a>
+                    <img src="99.webp" alt="旅游景点">
+                </div>
